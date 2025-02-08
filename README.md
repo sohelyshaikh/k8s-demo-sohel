@@ -2,10 +2,10 @@
 
 
 Steps to deploy this kubernetes application:
-1. Configure AWS cli with propers access keys. \
-2. Initiate terraform and apply the terraform configuration: Terraform will deploy the EKS cluster and it's managed nodegroup. \
-3. Give access to your IAM user in EKS IAM Cluster Access tab. \
-4. Update the Kube config file with aws eks update-kubeconfig command. \
+1. Configure AWS cli with propers access keys. 
+2. Initiate terraform and apply the terraform configuration: Terraform will deploy the EKS cluster and it's managed nodegroup. 
+3. Give access to your IAM user in EKS IAM Cluster Access tab. 
+4. Update the Kube config file with aws eks update-kubeconfig command. 
 5. Access the eks cluster and deploy the python application. \
 6. Expose the python application with clusterIP. \
 7. Install ingress controller and then create an ingress resource with rules. \
